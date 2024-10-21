@@ -1,0 +1,6 @@
+Object detection using Transfer Learning of CNN architectures
+Load in a pre-trained CNN model trained on a large dataset
+b. Freeze parameters (weights) in the model’s lower convolutional layers
+c. Add a custom classifier with several layers of trainable parameters to model
+d. Train classifier layers on training data available for the task
+e. Fine-tune hyperparameters and unfreeze more layers as needed
